@@ -13,10 +13,10 @@ We have to preprocess the data before training/testing the model.
 Both models have been trained using a subset of training data such that the distribution of labels in the original data remains same in the sampled data. The new train data size comprise of 44,000 samples. 
 
 ## Training the model
-1. To train the DeepSea model, please run ```ChromatinProfilePrediction/src/DeepSea/train_model.py```
+1. To train the DeepSea model, please run ```ChromatinProfilePrediction/src/DeepSea/train_model.py``` <br/>
    a. Trained model can be downloaded from https://1drv.ms/u/s!Aq2K8wPeIwKTgcAvrAD8NGKZNxSPow?e=DyfXDy
-2. To train the longformer model, please run ```ChromatinProfilePrediction/src/train_model.py```
-  a. Trained model can be downloaded using https://1drv.ms/u/s!Aq2K8wPeIwKTgcA_AsZAgQzBQBZZwg?e=7BOHes
+2. To train the longformer model, please run ```ChromatinProfilePrediction/src/train_model.py```<br/>
+   a. Trained model can be downloaded using https://1drv.ms/u/s!Aq2K8wPeIwKTgcA_AsZAgQzBQBZZwg?e=7BOHes
 
 ## Test the model
 1. To obtain the DeepSea model performance, please run ```ChromatinProfilePrediction/src/DeepSea/test_model.py```
