@@ -30,6 +30,6 @@ Average Precision Score: 0.065 <br/>
 
 
 ### Using Longformer
-Test Data Loss: 0.04 <br/>
+Test Data Loss: 0.0005 <br/>
 ROC AUC Score: 0.608 <br/>
 Average Precision Score: 0.035<br/>
