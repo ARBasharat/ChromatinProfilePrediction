@@ -9,6 +9,9 @@ We have to preprocess the data before training/testing the model.
 1. For generating the data for training DeepSea model, please use ```get_train_test_data_OneHot.py``` script. Alternatlively, you can download the pre-processed files from https://1drv.ms/u/s!Aq2K8wPeIwKTgcArx1aHSJ7i3OKduA?e=f41uyC
 2. Fore generating the data to train Longformer model. Please use ```get_train_test_data_seq.py``` script. Alternatively, you can download the already processed data from https://1drv.ms/u/s!Aq2K8wPeIwKTgcA8wVmRIKqzHB-50w?e=xHDcC2
 
+# Training Data
+Both models have been trained using a subset of training data such that the distribution of labels in the original data remains same in the sampled data. The new train data size comprise of 44,000 samples. 
+
 ## Training the model
 1. To train the DeepSea model, please run ```ChromatinProfilePrediction/src/DeepSea/train_model.py```
 2. To train the longformer model, please run ```ChromatinProfilePrediction/src/train_model.py```
